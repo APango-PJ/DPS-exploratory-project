@@ -11,10 +11,12 @@ body{
 #main-nav{
     border-bottom: 1px solid #CCC;
     background-color: var(--nav-bg-color);
+    padding: 13px 0px 13px 0px;
 }
 #main-nav > * > *{
     padding-top: 10px;
     color: var(--main-text-color);
+    font-size: 16px;
 }
 #main-nav, #main-nav > div{
     display: flex;
@@ -38,12 +40,11 @@ body{
 }
 .sec-href > a{
     position: relative;
-    left: 15%;
+    left: 25%;
     text-decoration: none;
 }
 .dropdown{
     display: relative;
-
 }
 .dropbtn{
     border: none;
@@ -62,7 +63,6 @@ body{
     color: var(--main-text-color);
     background-color: var(--nav-bg-color);
     padding: 5px;
-
 }
 
 .dropdown:hover .drop-content{
