@@ -1,0 +1,12 @@
+.product-cards{
+    display: flex;
+    flex-direction: column;
+}
+.product-cards > *{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.data-card{
+    margin: 50px;
+}
