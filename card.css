@@ -1,0 +1,18 @@
+.data-card{
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+}
+.data-card:hover{
+    transition: 250ms ease;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.card-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+.card-content{
+    width: 300px;
+    height: 360px;
+    padding: 10px;
+}
