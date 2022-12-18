@@ -1,10 +1,18 @@
 .data-card{
     border: 1px rgba(0, 0, 0, 0.2) solid;
+    display: flex;
+    flex-direction: column;
 }
 .data-card:hover{
     transition: 250ms ease;
     transform: scale(1.1);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.card-picture{
+    text-align: center;
+}
+.card-picture > img{
+    width: 100px;
 }
 .card-heading{
     text-align: center;
