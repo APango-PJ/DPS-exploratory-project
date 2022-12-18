@@ -2,7 +2,12 @@ body{
     padding: 0;
     margin: 0;
     --main-text-color: rgb(236, 236, 236);
-    --nav-bg-color: #539DC9;
+    --nav-bg-color: rgba(25, 25, 25, 0.75);
+}
+/*#539DC9*/
+#navspace{
+    height: 61px;
+    background-color: black;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -12,6 +17,9 @@ body{
     border-bottom: 1px solid #CCC;
     background-color: var(--nav-bg-color);
     padding: 13px 0px 13px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 #main-nav > * > *{
     padding-top: 10px;
