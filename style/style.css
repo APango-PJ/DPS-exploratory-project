@@ -14,6 +14,7 @@
 }
 .info-divs > img{
     height: 200%;
+    border-radius: 5%;
 }
 .info-divs > p{
     padding: 20px;
@@ -21,16 +22,24 @@
     font-size: 115%;
 }
 main{
-    margin: 125px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .ai-stats{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: rgba(25, 25, 25, 0.75);
+    width: 125%; 
 }
 .ai-stats > *{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+iframe{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
