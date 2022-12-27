@@ -10,3 +10,15 @@
 .data-card{
     margin: 50px;
 }
+.card-content{
+    font-size: medium;
+}
+.card-heading{
+    font-size: x-large;
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(249, 249, 249);
+    padding-bottom: 50px;
+}
