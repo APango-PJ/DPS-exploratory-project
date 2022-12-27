@@ -38,6 +38,11 @@ main{
     flex-direction: column;
     justify-content: center;
 }
+h1{
+    font-size: xx-large;
+    display: inline-block;
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
 iframe{
     width: 90%;
     margin-left: 5%;
