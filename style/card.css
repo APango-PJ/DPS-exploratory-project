@@ -10,6 +10,7 @@
     border: 1px rgba(0, 0, 0, 0.2) solid;
     display: flex;
     flex-direction: column;
+    background-color: rgba(241, 222, 184, 0.5);
 }
 .data-card:hover{
     transition: 250ms ease;
