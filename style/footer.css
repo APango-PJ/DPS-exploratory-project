@@ -2,8 +2,8 @@ footer{
     display: flex;
     flex-direction: column;
     padding-top: 15px;
+    padding-bottom: 25px;
     background-color: rgb(249, 249, 249);
-
 }
 .footer-row{
     display: flex;
