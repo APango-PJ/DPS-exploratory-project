@@ -1,17 +1,27 @@
-#spacer{
-    margin: 200px;
+.slideshow1{
+    background-color: rgb(18, 48, 74);
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main1{
+    padding-top: 200px;
+    background-color: rgb(249, 249, 249);
+}
+/**/
+.info-divs{
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    display: flex;
 }
 .info-divs1{
-    display: flex;
     flex-direction: row;
 }
 .info-divs2{
-    display: flex;
     flex-direction: row-reverse;
 }
-.info-divs{
-    margin-bottom: 100px;
-}
+/**/
 .info-divs > img{
     height: 200%;
     border-radius: 5%;
@@ -21,17 +31,16 @@
     margin: 10px;
     font-size: 115%;
 }
-main{
-    margin-left: 10%;
-    margin-right: 10%;
-}
+/**/
+
 
 .ai-stats{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgba(25, 25, 25, 0.75);
-    width: 125%; 
+    width: 95%; 
+    padding: 2.5%;
+    background-color: rgb(240, 240, 240);
 }
 .ai-stats > *{
     display: flex;
