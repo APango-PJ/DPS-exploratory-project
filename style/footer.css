@@ -25,3 +25,10 @@ footer{
 .footer-row > * > * > *:hover{
     color: rgb(156, 156, 159);
 }
+.last-footer-row > * > *{
+    text-decoration: none;
+    color: rgb(80, 80, 83);
+}
+.last-footer-row > * > *:hover{
+    color: rgb(156, 156, 159);
+}
