@@ -1,0 +1,23 @@
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    background-color: rgb(249, 249, 249);
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.blog-metadata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog-heading{
+    text-align: center;
+    font-size: x-large;
+}
+li > a{
+    text-decoration: underline;
+    color:rgb(24, 24, 24)
+}
